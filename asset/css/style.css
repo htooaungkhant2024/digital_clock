@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  span{
+    font-size: 16px;
+    color: #935;
+  }
+  
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .box{
+    text-align: center;
+    border: 4px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    
+    box-shadow: .5px .6px 1px rebeccapurple,
+                -.5px -.6px 1px red;
+  
+    font-size: 40px;
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: 3px;
+    text-shadow: .5px .6px 1px rebeccapurple;
+    
+  
+  }
+  
+  
